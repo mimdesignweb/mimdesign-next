@@ -1,0 +1,24 @@
+.breadcrumb { padding-block: 12px; }
+
+.list {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+
+.item { display: flex; align-items: center; gap: 4px; }
+
+.sep  { color: var(--text-muted); font-size: var(--text-sm); }
+
+.link {
+  font-size: var(--text-sm);
+  color: var(--text-secondary);
+  transition: color var(--duration-fast);
+}
+.link:hover { color: var(--cyan-glow); }
+
+.current {
+  font-size: var(--text-sm);
+  color: var(--text-muted);
+}
